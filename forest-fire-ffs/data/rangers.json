@@ -1,0 +1,7 @@
+[
+  {"ranger_id": "R01", "name": "李建国", "lat": 24.820, "lon": 101.190, "phone": "13800000001", "max_tasks": 2},
+  {"ranger_id": "R02", "name": "王秀兰", "lat": 24.795, "lon": 101.230, "phone": "13800000002", "max_tasks": 2},
+  {"ranger_id": "R03", "name": "张卫东", "lat": 24.750, "lon": 101.170, "phone": "13800000003", "max_tasks": 2},
+  {"ranger_id": "R04", "name": "赵春梅", "lat": 24.860, "lon": 101.280, "phone": "13800000004", "max_tasks": 2},
+  {"ranger_id": "R05", "name": "刘志强", "lat": 24.730, "lon": 101.300, "phone": "13800000005", "max_tasks": 2}
+]

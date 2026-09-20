@@ -1,0 +1,5 @@
+[
+  {"tower_id": "T01", "name": "凤凰山瞭望塔", "lat": 24.835, "lon": 101.180, "elevation_m": 2380},
+  {"tower_id": "T02", "name": "老鹰崖瞭望塔", "lat": 24.790, "lon": 101.250, "elevation_m": 2510},
+  {"tower_id": "T03", "name": "黑马箐瞭望塔", "lat": 24.760, "lon": 101.150, "elevation_m": 2290}
+]

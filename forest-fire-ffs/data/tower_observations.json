@@ -1,0 +1,11 @@
+[
+  {"obs_id": "OBS-001", "tower_id": "T01", "observed_at": "2026-09-20T09:05:00+08:00",
+   "azimuth_deg": 125.9, "distance_m": 4400, "smoke_color": "灰白",
+   "note": "烟柱持续升高，疑似林火"},
+  {"obs_id": "OBS-002", "tower_id": "T02", "observed_at": "2026-09-20T09:09:00+08:00",
+   "azimuth_deg": 304.7, "distance_m": 4600, "smoke_color": "灰白",
+   "note": "与 T01 通报为同一烟点"},
+  {"obs_id": "OBS-003", "tower_id": "T03", "observed_at": "2026-09-20T08:40:00+08:00",
+   "azimuth_deg": 40.0, "distance_m": 6000, "smoke_color": "白色",
+   "note": "烟色偏白，疑似农事用火，需核查"}
+]

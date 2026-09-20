@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-09-20T13:31:00+08:00",
+  "input": {
+    "satellite_hotspots": 7,
+    "tower_observations": 3
+  },
+  "fused_events": 5,
+  "tasks_dispatched": 5,
+  "unassigned_events": [],
+  "events": [
+    {
+      "event_id": "E-0001",
+      "lat": 24.77485,
+      "lon": 101.2054,
+      "confidence": 0.898,
+      "frp_max_mw": 12.3,
+      "priority": "P1",
+      "sources": 2,
+      "last_detected": "2026-09-20T10:05:00+08:00"
+    },
+    {
+      "event_id": "E-0002",
+      "lat": 24.80133,
+      "lon": 101.18821,
+      "confidence": 0.55,
+      "frp_max_mw": 0.0,
+      "priority": "P2",
+      "sources": 1,
+      "last_detected": "2026-09-20T08:40:00+08:00"
+    },
+    {
+      "event_id": "E-0003",
+      "lat": 24.81202,
+      "lon": 101.21509,
+      "confidence": 0.99,
+      "frp_max_mw": 68.4,
+      "priority": "P1",
+      "sources": 3,
+      "last_detected": "2026-09-20T10:42:00+08:00"
+    },
+    {
+      "event_id": "E-0004",
+      "lat": 24.88,
+      "lon": 101.3,
+      "confidence": 0.7,
+      "frp_max_mw": 25.6,
+      "priority": "P2",
+      "sources": 1,
+      "last_detected": "2026-09-20T11:20:00+08:00"
+    },
+    {
+      "event_id": "E-0005",
+      "lat": 24.7404,
+      "lon": 101.2797,
+      "confidence": 0.67,
+      "frp_max_mw": 6.1,
+      "priority": "P2",
+      "sources": 2,
+      "last_detected": "2026-09-20T13:31:00+08:00"
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "T-0001",
+      "event_id": "E-0003",
+      "ranger_id": "R02",
+      "priority": "P1",
+      "distance_km": 2.42,
+      "eta_min": 6,
+      "deadline": "2026-09-20T15:31:00+08:00"
+    },
+    {
+      "task_id": "T-0002",
+      "event_id": "E-0001",
+      "ranger_id": "R02",
+      "priority": "P1",
+      "distance_km": 3.34,
+      "eta_min": 8,
+      "deadline": "2026-09-20T15:31:00+08:00"
+    },
+    {
+      "task_id": "T-0003",
+      "event_id": "E-0004",
+      "ranger_id": "R04",
+      "priority": "P2",
+      "distance_km": 3.0,
+      "eta_min": 7,
+      "deadline": "2026-09-20T17:31:00+08:00"
+    },
+    {
+      "task_id": "T-0004",
+      "event_id": "E-0005",
+      "ranger_id": "R05",
+      "priority": "P2",
+      "distance_km": 2.35,
+      "eta_min": 6,
+      "deadline": "2026-09-20T17:31:00+08:00"
+    },
+    {
+      "task_id": "T-0005",
+      "event_id": "E-0002",
+      "ranger_id": "R01",
+      "priority": "P2",
+      "distance_km": 2.08,
+      "eta_min": 5,
+      "deadline": "2026-09-20T17:31:00+08:00"
+    }
+  ]
+}

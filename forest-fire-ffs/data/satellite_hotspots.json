@@ -1,0 +1,23 @@
+[
+  {"hs_id": "VNP-0001", "satellite": "VIIRS", "lat": 24.8123, "lon": 101.2148,
+   "acquired_at": "2026-09-20T09:18:00+08:00", "confidence": "high",
+   "frp_mw": 68.4, "brightness_k": 341.2},
+  {"hs_id": "MOD-0002", "satellite": "MODIS", "lat": 24.8115, "lon": 101.2162,
+   "acquired_at": "2026-09-20T10:42:00+08:00", "confidence": 82,
+   "frp_mw": 55.1, "brightness_k": 335.0},
+  {"hs_id": "MOD-0003", "satellite": "MODIS", "lat": 24.7752, "lon": 101.2047,
+   "acquired_at": "2026-09-20T07:58:00+08:00", "confidence": 66,
+   "frp_mw": 12.3, "brightness_k": 318.5},
+  {"hs_id": "VNP-0004", "satellite": "VIIRS", "lat": 24.7748, "lon": 101.2055,
+   "acquired_at": "2026-09-20T10:05:00+08:00", "confidence": "nominal",
+   "frp_mw": 9.4, "brightness_k": 315.2},
+  {"hs_id": "VNP-0005", "satellite": "VIIRS", "lat": 24.8800, "lon": 101.3000,
+   "acquired_at": "2026-09-20T11:20:00+08:00", "confidence": "nominal",
+   "frp_mw": 25.6, "brightness_k": 322.8},
+  {"hs_id": "VNP-0006", "satellite": "VIIRS", "lat": 24.7400, "lon": 101.2800,
+   "acquired_at": "2026-09-20T12:02:00+08:00", "confidence": "low",
+   "frp_mw": 5.2, "brightness_k": 308.4},
+  {"hs_id": "VNP-0007", "satellite": "VIIRS", "lat": 24.7408, "lon": 101.2794,
+   "acquired_at": "2026-09-20T13:31:00+08:00", "confidence": 0.45,
+   "frp_mw": 6.1, "brightness_k": 309.1}
+]

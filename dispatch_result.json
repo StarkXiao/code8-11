@@ -1,0 +1,331 @@
+{
+  "generated_at": "2026-09-20T10:30:00",
+  "params": {
+    "spatial_km": 2.0,
+    "temporal_hours": 12.0
+  },
+  "events": [
+    {
+      "event_id": "EV-001",
+      "lat": 42.10154,
+      "lon": 127.90604,
+      "first_seen": "2026-09-20 09:05:00",
+      "last_seen": "2026-09-20 10:20:00",
+      "detections": [
+        {
+          "source_type": "satellite",
+          "source_id": "HS-001",
+          "lat": 42.1018,
+          "lon": 127.9048,
+          "detected_at": "2026-09-20 09:05:00",
+          "confidence": 0.95,
+          "loc_weight": 0.975,
+          "frp": 62.4,
+          "detail": "Suomi-NPP/VIIRS FRP=62.4MW 置信度95%"
+        },
+        {
+          "source_type": "tower",
+          "source_id": "OB-001",
+          "lat": 42.101627729996196,
+          "lon": 127.91240562560584,
+          "detected_at": "2026-09-20 09:12:00",
+          "confidence": 0.7,
+          "loc_weight": 0.5,
+          "frp": 0.0,
+          "detail": "北岭瞭望塔 方位141° 约6.9km 灰白烟"
+        },
+        {
+          "source_type": "tower",
+          "source_id": "OB-002",
+          "lat": 42.09986872113818,
+          "lon": 127.9070684490542,
+          "detected_at": "2026-09-20 09:15:00",
+          "confidence": 0.7,
+          "loc_weight": 0.5,
+          "frp": 0.0,
+          "detail": "青峰瞭望塔 方位328° 约5.2km 灰黑烟"
+        },
+        {
+          "source_type": "satellite",
+          "source_id": "HS-002",
+          "lat": 42.1025,
+          "lon": 127.9056,
+          "detected_at": "2026-09-20 09:40:00",
+          "confidence": 0.98,
+          "loc_weight": 0.99,
+          "frp": 71.8,
+          "detail": "NOAA-20/VIIRS FRP=71.8MW 置信度98%"
+        },
+        {
+          "source_type": "satellite",
+          "source_id": "HS-003",
+          "lat": 42.1011,
+          "lon": 127.9039,
+          "detected_at": "2026-09-20 10:20:00",
+          "confidence": 0.9,
+          "loc_weight": 0.95,
+          "frp": 55.1,
+          "detail": "Aqua/MODIS FRP=55.1MW 置信度90%"
+        }
+      ],
+      "risk": "高",
+      "risk_score": 6
+    },
+    {
+      "event_id": "EV-002",
+      "lat": 42.18208,
+      "lon": 127.78035,
+      "first_seen": "2026-09-20 09:05:00",
+      "last_seen": "2026-09-20 09:48:00",
+      "detections": [
+        {
+          "source_type": "satellite",
+          "source_id": "HS-004",
+          "lat": 42.1803,
+          "lon": 127.7795,
+          "detected_at": "2026-09-20 09:05:00",
+          "confidence": 0.6,
+          "loc_weight": 0.8,
+          "frp": 24.3,
+          "detail": "Suomi-NPP/VIIRS FRP=24.3MW 置信度60%"
+        },
+        {
+          "source_type": "tower",
+          "source_id": "OB-003",
+          "lat": 42.18491706784092,
+          "lon": 127.78170163007091,
+          "detected_at": "2026-09-20 09:48:00",
+          "confidence": 0.7,
+          "loc_weight": 0.5,
+          "frp": 0.0,
+          "detail": "南沟瞭望塔 方位355° 约18.4km 白烟"
+        }
+      ],
+      "risk": "中",
+      "risk_score": 4
+    },
+    {
+      "event_id": "EV-003",
+      "lat": 42.0498,
+      "lon": 128.0512,
+      "first_seen": "2026-09-20 09:05:00",
+      "last_seen": "2026-09-20 09:05:00",
+      "detections": [
+        {
+          "source_type": "satellite",
+          "source_id": "HS-005",
+          "lat": 42.0498,
+          "lon": 128.0512,
+          "detected_at": "2026-09-20 09:05:00",
+          "confidence": 0.2,
+          "loc_weight": 0.6,
+          "frp": 6.2,
+          "detail": "Suomi-NPP/VIIRS FRP=6.2MW 置信度20%"
+        }
+      ],
+      "risk": "低",
+      "risk_score": 0
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "RW-20260920-001",
+      "event": {
+        "event_id": "EV-001",
+        "lat": 42.10154,
+        "lon": 127.90604,
+        "first_seen": "2026-09-20 09:05:00",
+        "last_seen": "2026-09-20 10:20:00",
+        "detections": [
+          {
+            "source_type": "satellite",
+            "source_id": "HS-001",
+            "lat": 42.1018,
+            "lon": 127.9048,
+            "detected_at": "2026-09-20 09:05:00",
+            "confidence": 0.95,
+            "loc_weight": 0.975,
+            "frp": 62.4,
+            "detail": "Suomi-NPP/VIIRS FRP=62.4MW 置信度95%"
+          },
+          {
+            "source_type": "tower",
+            "source_id": "OB-001",
+            "lat": 42.101627729996196,
+            "lon": 127.91240562560584,
+            "detected_at": "2026-09-20 09:12:00",
+            "confidence": 0.7,
+            "loc_weight": 0.5,
+            "frp": 0.0,
+            "detail": "北岭瞭望塔 方位141° 约6.9km 灰白烟"
+          },
+          {
+            "source_type": "tower",
+            "source_id": "OB-002",
+            "lat": 42.09986872113818,
+            "lon": 127.9070684490542,
+            "detected_at": "2026-09-20 09:15:00",
+            "confidence": 0.7,
+            "loc_weight": 0.5,
+            "frp": 0.0,
+            "detail": "青峰瞭望塔 方位328° 约5.2km 灰黑烟"
+          },
+          {
+            "source_type": "satellite",
+            "source_id": "HS-002",
+            "lat": 42.1025,
+            "lon": 127.9056,
+            "detected_at": "2026-09-20 09:40:00",
+            "confidence": 0.98,
+            "loc_weight": 0.99,
+            "frp": 71.8,
+            "detail": "NOAA-20/VIIRS FRP=71.8MW 置信度98%"
+          },
+          {
+            "source_type": "satellite",
+            "source_id": "HS-003",
+            "lat": 42.1011,
+            "lon": 127.9039,
+            "detected_at": "2026-09-20 10:20:00",
+            "confidence": 0.9,
+            "loc_weight": 0.95,
+            "frp": 55.1,
+            "detail": "Aqua/MODIS FRP=55.1MW 置信度90%"
+          }
+        ],
+        "risk": "高",
+        "risk_score": 6
+      },
+      "ranger": {
+        "ranger_id": "R04",
+        "name": "赵敏",
+        "station": "机动巡护队",
+        "lat": 42.1,
+        "lon": 127.9,
+        "phone": "139-0433-0124",
+        "jurisdiction_km": 40.0,
+        "max_tasks": 3
+      },
+      "priority": "高",
+      "issued_at": "2026-09-20 10:30:00",
+      "deadline": "2026-09-20 11:30:00",
+      "cross_region": false,
+      "checklist": [
+        "携带定位终端与对讲设备，按坐标 42.10154, 127.90604 导航至现场",
+        "确认热点性质（明火 / 阴燃 / 非火情：农事用火、工业热源、云影误报等）",
+        "拍摄东、南、西、北四方位现场照片并回传",
+        "记录植被类型、估计过火面积、现场风向风速",
+        "评估蔓延风险，必要时立即请求增援",
+        "在时限内通过终端回传核查结论"
+      ],
+      "status": "待核查"
+    },
+    {
+      "task_id": "RW-20260920-002",
+      "event": {
+        "event_id": "EV-002",
+        "lat": 42.18208,
+        "lon": 127.78035,
+        "first_seen": "2026-09-20 09:05:00",
+        "last_seen": "2026-09-20 09:48:00",
+        "detections": [
+          {
+            "source_type": "satellite",
+            "source_id": "HS-004",
+            "lat": 42.1803,
+            "lon": 127.7795,
+            "detected_at": "2026-09-20 09:05:00",
+            "confidence": 0.6,
+            "loc_weight": 0.8,
+            "frp": 24.3,
+            "detail": "Suomi-NPP/VIIRS FRP=24.3MW 置信度60%"
+          },
+          {
+            "source_type": "tower",
+            "source_id": "OB-003",
+            "lat": 42.18491706784092,
+            "lon": 127.78170163007091,
+            "detected_at": "2026-09-20 09:48:00",
+            "confidence": 0.7,
+            "loc_weight": 0.5,
+            "frp": 0.0,
+            "detail": "南沟瞭望塔 方位355° 约18.4km 白烟"
+          }
+        ],
+        "risk": "中",
+        "risk_score": 4
+      },
+      "ranger": {
+        "ranger_id": "R01",
+        "name": "王海峰",
+        "station": "北岭管护站",
+        "lat": 42.14,
+        "lon": 127.83,
+        "phone": "139-0433-0121",
+        "jurisdiction_km": 25.0,
+        "max_tasks": 3
+      },
+      "priority": "中",
+      "issued_at": "2026-09-20 10:30:00",
+      "deadline": "2026-09-20 12:30:00",
+      "cross_region": false,
+      "checklist": [
+        "携带定位终端与对讲设备，按坐标 42.18208, 127.78035 导航至现场",
+        "确认热点性质（明火 / 阴燃 / 非火情：农事用火、工业热源、云影误报等）",
+        "拍摄东、南、西、北四方位现场照片并回传",
+        "记录植被类型、估计过火面积、现场风向风速",
+        "评估蔓延风险，必要时立即请求增援",
+        "在时限内通过终端回传核查结论"
+      ],
+      "status": "待核查"
+    },
+    {
+      "task_id": "RW-20260920-003",
+      "event": {
+        "event_id": "EV-003",
+        "lat": 42.0498,
+        "lon": 128.0512,
+        "first_seen": "2026-09-20 09:05:00",
+        "last_seen": "2026-09-20 09:05:00",
+        "detections": [
+          {
+            "source_type": "satellite",
+            "source_id": "HS-005",
+            "lat": 42.0498,
+            "lon": 128.0512,
+            "detected_at": "2026-09-20 09:05:00",
+            "confidence": 0.2,
+            "loc_weight": 0.6,
+            "frp": 6.2,
+            "detail": "Suomi-NPP/VIIRS FRP=6.2MW 置信度20%"
+          }
+        ],
+        "risk": "低",
+        "risk_score": 0
+      },
+      "ranger": {
+        "ranger_id": "R02",
+        "name": "李秀兰",
+        "station": "青峰管护站",
+        "lat": 42.07,
+        "lon": 127.97,
+        "phone": "139-0433-0122",
+        "jurisdiction_km": 25.0,
+        "max_tasks": 3
+      },
+      "priority": "低",
+      "issued_at": "2026-09-20 10:30:00",
+      "deadline": "2026-09-20 14:30:00",
+      "cross_region": false,
+      "checklist": [
+        "携带定位终端与对讲设备，按坐标 42.04980, 128.05120 导航至现场",
+        "确认热点性质（明火 / 阴燃 / 非火情：农事用火、工业热源、云影误报等）",
+        "拍摄东、南、西、北四方位现场照片并回传",
+        "记录植被类型、估计过火面积、现场风向风速",
+        "评估蔓延风险，必要时立即请求增援",
+        "在时限内通过终端回传核查结论"
+      ],
+      "status": "待核查"
+    }
+  ]
+}
